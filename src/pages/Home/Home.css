@@ -59,6 +59,14 @@
     color: #ffcc00;
 }
 
+.filter-container select {
+  padding: 8px 12px;
+  border-radius: 5px;
+  background-color: var(--card-bg); /* Use your existing theme variable */
+  color: var(--text-color);
+  cursor: pointer;
+}
+
 
 .light-mode .pokemon-card{
     background: #ffffff; 
