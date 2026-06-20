@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# pokemon-finder-react-app
+A dynamic, responsive web application designed for Pokémon trainers to browse, search, and learn about their favorite Pokémon. This project integrates the PokéAPI to provide real-time data on Pokémon statistics, types, and abilities, while offering a personalized experience through a secure, Firebase-backed feedback system.
+>>>>>>> 4b9cb64658a5279c1a8a852c1c7698da92a9bebc
