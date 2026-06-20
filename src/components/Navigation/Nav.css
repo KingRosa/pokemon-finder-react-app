@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Pokemon Hollow' ;
+    src: url('../../assets/Pokemon Hollow.ttf') format('truetype');
+    
+font-weight: normal;
+font-style: noraml; 
+}
+
+@font-face {
+    font-family: 'Pokemon Solid';
+    src: url('../../assets/Pokemon Solid.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* NAV SECTION 
+
+
+*/
+
+nav{
+    position: relative; 
+    z-index: 1000;
+    display: flex;
+    background-color: #1a1a1a;
+    padding: 1.5rem 2rem;
+    gap: 30px; 
+    border-bottom: 4px solid #8b0000; 
+    align-items: center; 
+
+    font-family: 'Pokemon Solid', sans-serif;
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;            
+    gap: 50px;
+    
+}
+
+nav a{
+text-decoration: none; 
+font-weight: bold; 
+font-size: 1.6rem;
+margin: 0 auto; 
+left: 9px; 
+background: linear-gradient(90deg, #d62828, #ffb703, #212529);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent; 
+background-clip: text; 
+
+transition: transform 0.2s ease-in, filter 0.2s
+
+}
+
+
+
+nav a:hover{
+transform: scale(1.05);
+filter: brightness(1.3);
+
+}
+
+.nav-actions{
+    display: flex;
+    gap: 15px;
+    align-items: center; 
+}
+
+nav input{
+    padding: 8px 12px; 
+    border: 1px solid #444; 
+    background: #2a2a2a; 
+    color: white; 
+    outline: none; 
+    border-radius: 20px; 
+    border: none; 
+}
+
+
+nav button {
+    background-color: #333; 
+    color: white; 
+    border: 1px solid #ffcc00; 
+    padding: 8px 12px; 
+    border-radius: 50%; 
+    font-size: 1.2rem; 
+    transition: all 0.3s ease; 
+    cursor: pointer; 
+    font-size: 1.2rem; 
+}
+
+
+
+/* LIGHT MODE AND DARK MODE SECTION 
+
+*/
+
+.light-mode{
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+
+.light-mode nav{
+    background-color: #ffffff; 
+    border-bottom: 4px solid #ffcc00; 
+
+}
+
+.light-mode nav input{
+    background: #e0e0e0e0;
+    color: #1a1a1a; 
+    border: 1px solid #ccc; 
+
+}
+
+.light-mode nav button {
+    background: #ffcc00; 
+    border: 1px solid #d62828; 
+}

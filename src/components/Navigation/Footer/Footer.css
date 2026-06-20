@@ -1,0 +1,35 @@
+.footer {
+    padding: 2rem;
+    margin-top: 4rem;
+    background: #121212;
+    border-top: 2px solid #ffcc00;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Light Mode */
+.light-mode .footer {
+    background: #f8f8f8;
+    border-top: 2px solid #ffcc00;
+    color: #333;
+}

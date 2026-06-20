@@ -1,0 +1,25 @@
+mutation AddPokemon($data: Pokemon_Data!) @auth(level: USER) {
+  pokemon_insert(data: $data)
+}
+
+mutation AddUser($data: User_Data!) @auth(level: PUBLIC) {
+  user_insert(data: $data)
+}
+
+query ListPokemon @auth(level: PUBLIC) {
+  pokemons(orderBy: [{name: ASC}], limit: 50) {
+    name
+    primaryType
+    imageUrl
+  }
+}
+
+query GetUserFavorites @auth(level: USER) {
+  favorites(where: {user: {id: {eq_expr: "auth.uid"}}}) {
+    pokemon {
+      name
+      imageUrl
+    }
+    createdAt
+  }
+}

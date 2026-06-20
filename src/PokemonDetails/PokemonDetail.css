@@ -1,0 +1,69 @@
+.pokemon-detail {
+    max-width: 600px; 
+    margin: 40px auto; 
+    padding: 30px; 
+
+    background: #1a1a1a; 
+    border-radius: 20px; 
+
+    text-align: center; 
+    border: 3px solid #ffcc00; 
+    color: #ffffff;
+}
+
+.pokemon-detail h1{
+    font-family: 'Pokemon Solid', sans-serif; 
+    letter-spacing: 2px; 
+    margin-bottom: 20px; 
+    
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ffb703, #d62828);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+ 
+
+
+.pokemon-para{
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.pokemon-detail img{
+    background: #2a2a2a; 
+    border-radius: 50%; 
+    border: 5px solid #333; 
+    padding: 10px;
+    margin-bottom: 20px; 
+}
+
+.stats ul{
+    list-style: none; 
+    padding: 0;
+}
+
+.stats li {
+    background: #333; 
+    margin: 5px 0; 
+    padding: 8px 15px;
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-right: 10px; 
+}
+
+.light-mode .pokemon-detail{
+    background: #ffffff; 
+    border: 3px solid #ffcc00; 
+    color: #333; 
+}
+
+.light-mode .pokemon-detail img{
+    background: #f0f0f0; 
+}
+
+.light-mode .stats li {
+    background: #eeeeee; 
+}
+
+

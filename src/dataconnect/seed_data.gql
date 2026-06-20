@@ -1,0 +1,18 @@
+mutation CreateSeedData @transaction {
+  pokemon_insertMany(data: [
+    {
+      name: "Bulbasaur",
+      species: "Seed",
+      height: 0.7,
+      weight: 6.9,
+      primaryType: "Grass"
+    },
+    {
+      name: "Charmander",
+      species: "Lizard",
+      height: 0.6,
+      weight: 8.5,
+      primaryType: "Fire"
+    }
+  ])
+}

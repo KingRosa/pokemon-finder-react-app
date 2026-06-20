@@ -1,0 +1,37 @@
+type Pokemon @table {
+  name: String!
+  species: String!
+  height: Float!
+  weight: Float!
+  primaryType: String!
+  secondaryType: String
+  baseStats: String
+  description: String
+  imageUrl: String
+  generation: Generation
+}
+
+type Generation @table {
+  generationName: String!
+  releaseYear: Int!
+  regionName: String
+}
+
+type Evolution @table {
+  evolutionStage: Int!
+  triggerMethod: String!
+  parentPokemon: Pokemon
+  childPokemon: Pokemon
+}
+
+type User @table {
+  username: String!
+  email: String!
+  joinDate: Date
+}
+
+type Favorite @table(key: ["user", "pokemon"]) {
+  createdAt: Timestamp!
+  user: User!
+  pokemon: Pokemon!
+}
