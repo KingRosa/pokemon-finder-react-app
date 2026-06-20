@@ -1,75 +1,17 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Pokémon Finder & Trainer Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A dynamic, responsive web application designed for Pokémon trainers to browse, search, and learn about their favorite creatures. This project serves as a real-time data visualization tool, integrating the PokéAPI to provide detailed stats and lore, while utilizing Firebase for secure user feedback management.
 
-## Available Scripts
+## 🚀 Key Features
+* **Real-time Data Fetching:** Seamlessly retrieves and displays detailed Pokémon data using asynchronous JavaScript (`async/await`) and the official PokéAPI.
+* **Firebase Integration:** Implements a secure Firestore database for user-submitted feedback, protected by production-grade Security Rules.
+* **Optimized UI/UX:** Built with a component-driven architecture in React, featuring responsive layouts and intuitive search filtering.
+* **State Management:** Efficient handling of application states, including custom "loading" skeletons and theme toggles for improved user accessibility.
+* **Production-Ready Security:** Implements environment variable management to secure API credentials, following industry best practices for deployment.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# pokemon-finder-react-app
-A dynamic, responsive web application designed for Pokémon trainers to browse, search, and learn about their favorite Pokémon. This project integrates the PokéAPI to provide real-time data on Pokémon statistics, types, and abilities, while offering a personalized experience through a secure, Firebase-backed feedback system.
->>>>>>> 4b9cb64658a5279c1a8a852c1c7698da92a9bebc
+## 🛠 Tech Stack
+* **Frontend:** React.js, React Router, CSS3 (Modern Flexbox/Grid).
+* **Backend:** Firebase Firestore (NoSQL), Firebase Authentication.
+* **API:** PokéAPI (RESTful).
+* **Deployment:** Vercel (CI/CD integration).
+* **Version Control:** Git & GitHub.
